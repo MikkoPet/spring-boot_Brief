@@ -4,6 +4,7 @@ import com.scoretable.restapi.TokenProvider;
 import com.scoretable.restapi.dto.JwtDTO;
 import com.scoretable.restapi.dto.SignInDTO;
 import com.scoretable.restapi.dto.SignUpDTO;
+import com.scoretable.restapi.models.User;
 import com.scoretable.restapi.services.AuthService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

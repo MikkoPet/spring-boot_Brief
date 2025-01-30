@@ -10,7 +10,7 @@ import java.util.Date;
 public class Match {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
 
     private String name;
     private Integer scoreTeam1;
@@ -25,11 +25,11 @@ public class Match {
         this.scoreTeam2 = scoreTeam2;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -48,7 +48,6 @@ public class Match {
     public void setScoreTeam1(Integer score) {
         this.scoreTeam1 = score;
     }
-
 
     public Integer getScoreTeam2() {
         return scoreTeam2;
